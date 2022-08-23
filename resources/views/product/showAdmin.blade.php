@@ -60,9 +60,7 @@
                                 </div>
                                 
 
-                                <div >
-                                    <img src="storage/{{ $product->image }}" class="card-img-top" style="width: 250px; margin: auto ;" alt="...">
-                                </div>
+                                
 
                             </div>
                     
