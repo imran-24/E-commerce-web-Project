@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+    line-height: 1.5rem;
+    max-width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+.text-format1{
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-transform: capitalize;
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: crimson;
+}
+
+ul{
+    list-style-type: none;
+}
+/* css for nav */
+
+.btn-toggler{
+    font-size: .6rem;
+    border: none;
+     
+}
+
+/* nav{
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+} */
+.nav-height{
+    height: 3rem
+}
+
+
+/* css for sale */
+
+.sale{
+    max-width: 100vw;
+    height:calc(100vh - 3rem);
+    display: grid;
+    background:url(../images/sale-banner.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sale-text{
+    max-width: 50% ;
+    height:calc(100vh - 3rem);
+    display: grid;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.title{
+    font-size: 3.5rem;
+
+}
+
+/* for mobile  */
+
+@media only screen and (max-width: 991px){
+  
+  .sale{
+    max-width: 100vw;
+    height:50vh;
+    display: grid;
+    background:url(../images/sale-banner.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sale-text{
+    max-width: 50% ;
+    height:50vh;
+    display: grid;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.title{
+    font-size: 2rem;
+
+}
+}
+
+
+/* css for new arrival */
+
+.arrival-notice{
+    display: grid;
+    overflow: hidden;
+ 
+    min-height: 100vh;
+    background:url(../images/arrival_banner.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* for mobile  */
+
+@media only screen and (max-width: 991px){
+
+    .arrival-notice{
+        display: grid;
+        overflow: hidden;
+        max-width: 100vw;
+        height: 50vh;
+        background:url(../images/arrival_banner.jpg);
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+/* css for products */
+
+    
+.blue-btn{
+    background: rgb(0, 183, 255);
+}
+
+
+
